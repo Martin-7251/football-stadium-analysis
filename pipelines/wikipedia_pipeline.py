@@ -135,10 +135,10 @@ def write_wikipedia_data(**kwargs):
 
     file_name=('stadium_cleaned' + str(datetime.now().date()) + "_" + str(datetime.now().time()).replace(":", "_") + '.csv')
 
-    # data.to_csv('data/' + file_name, index=False)
+    data.to_csv('data/' + file_name, index=False)
 
     data.to_csv('abfs://footballdatamk@footballdataengmk.dfs.core.windows.net/data/' + file_name, 
-                storage_options={'account_key': 'uyuggnhh8/RNgNsceOxA6YsceRts8pX81lU9ExzZ0lSQ4AWUvrUHT8DPaRB0iqcNl1WOhGKkg2Sg+AStGtjtKg=='
+                storage_options={'account_key': 'Add Your Key'
 
                 }, index=False)
 
