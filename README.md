@@ -28,16 +28,16 @@ This project extracts, transforms, analyzes, and visualizes global football stad
 
 ## 📁 Project Structure
 
-```bash
 .
 ├── pipelines/
 │   └── wikipedia_pipeline.py       # ETL logic
 ├── Data/
 │   └── stadium_cleaned....csv      # Cleaned dataset
 ├── query_stadiums.py              # SQL queries using DuckDB
-├── Football_Stadiums-Dashboard.pbix                 # Power BI Dashboard (excluded in .gitignore)
+├── Football_Stadiums-Dashboard.pbix                 
 ├── README.md
 └── .gitignore
+
 
 ⚙️ How It Works
 1. Extract
@@ -102,12 +102,8 @@ python query_stadiums.py
 Open dashboard.pbix in Power BI Desktop to view visuals.
 
 🙈 Excluded from Git
-.pbix files (too large)
-
 Azure keys / secrets
-
-Raw data files
 
 ✍️ Author
 Martin Kamau
-GitHub • LinkedIn
+Data Analyst | Data Engineer | [LinkedIn](https://www.linkedin.com/in/martinkamau29/)
